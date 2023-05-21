@@ -1,0 +1,35 @@
+:root {
+  --font-family-base: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell,
+    Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  --space-xxs: 4px;
+  --space-xs: 8px;
+  --space-sm: 10px;
+  --space-md: 14px;
+  --space-lg: 20px;
+  --space-xl: 32px;
+  --space-xxl: 40px;
+  /* Minor third typescale */
+  --font-xl: 2.488rem;
+  --font-lg: 2.074rem;
+  --font-md: 1.728rem;
+  --font-sm: 1.44rem;
+  --font-xs: 1.2rem;
+  --font-xxs: 0.8rem;
+  --container-width: 1040px;
+}
+
+div[data-theme='dark'] {
+  --main-bg: #2e3440;
+  --main-fg: #d8dee9;
+  --main-alt-fg: #3b4252;
+  --accent: #81a1c1;
+  --accent-warning: #ebcb8b;
+  --accent-error: #bf616a;
+  --heading-1-color: #6e89a4;
+  --heading-2-color: #8dbbba;
+  --heading-3-color: #a3be8c;
+  --subheading-color: #b08ba9;
+  --font-color-base: #d8dee9;
+  --font-color-alt: #7aaabb;
+  --link-color: #88c0d0;
+}

@@ -1,0 +1,15 @@
+{
+  "name": "trade-journal",
+  "version": "1.0.0",
+  "description": "entry point for both server and client",
+  "main": "index.js",
+  "scripts": {
+    "dev": "concurrently \"cd ./server && npm run dev\" \"cd ./client && npm run dev\"",
+    "build": "concurrently \"cd ./server && npm run build\" \"cd ./client && npm run build\""
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^8.0.1"
+  }
+}
