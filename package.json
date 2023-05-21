@@ -1,5 +1,5 @@
 {
-  "name": "trade-journal",
+  "name": "full-stack-root",
   "version": "1.0.0",
   "description": "entry point for both server and client",
   "main": "index.js",
